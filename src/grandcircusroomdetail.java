@@ -14,7 +14,7 @@ public class grandcircusroomdetail {
 		 String cont = "Y";
 		 
 		 //This loop will execute while cont equals Yes.  This also takes input from the user.  
-		 //This also verifies if the input a double.  
+		 //This also verifies if the input is a double.  
 		 while (cont.equalsIgnoreCase("Y")) {
 			 System.out.println("Enter Length: ");
 			 while (!scnr.hasNextDouble()) {
